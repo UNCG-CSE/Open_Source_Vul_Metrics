@@ -6,9 +6,10 @@ MSR 2020 Mining Challenge Dataset: https://docs.softwareheritage.org/devel/swh-d
 National Vulnerability Database: https://nvd.nist.gov/
 
 Team Name: Abracadata  
-Team Members (Name - GitUsername):
-•	Seth Goodwin — SethGoodwin
-•	Michael Follari — stonefollari
-•	Jaron Dunham — JaronDunham
-•	Gabe Wilmoth — GabeWilmoth
-•	Rohit Gade — rohitreddygade
+Team Members (Name - GitUsername): 
+</br>
+-Seth Goodwin — SethGoodwin </br>
+-Michael Follari — stonefollari </br>
+-Jaron Dunham — JaronDunham </br>
+-Gabe Wilmoth — GabeWilmoth </br>
+-Rohit Gade — rohitreddygade
