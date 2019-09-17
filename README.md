@@ -3,12 +3,13 @@
 
 
 ### Team: Abracadata  
-  Members: <br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * [**Seth Goodwin**](https://github.com/SethGoodwin)</br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * [**Michael Follari**](https://github.com/stonefollari)</br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * [**Jaron Dunham**](https://github.com/JaronDunham)</br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * [**Gabe Wilmoth**](https://github.com/GabeWilmoth)</br>
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * [**Rohit Gade**](https://github.com/rohitreddygade)
+ <span> Members: </span> <ul>
+ <li> <a href="https://github.com/SethGoodwin" target="_blank"> <span> Seth Goodwin </span> </a>
+ <li> <a href="https://github.com/stonefollari" target="_blank"> <span> Michael Follari </span> </a>
+ <li> <a href="https://github.com/JaronDunham" target="_blank"> <span> Jaron Dunham </span> </a>
+ <li> <a href="https://github.com/GabeWilmoth" target="_blank"> <span> Gabe Wilmoth </span> </a>
+ <li> <a href="https://github.com/rohitreddygade" target="_blank"> <span> Rohit Gade </span> </a>
+ </ul>
 
 MSR 2020 Mining Challenge Dataset: https://docs.softwareheritage.org/devel/swh-dataset/graph/dataset.html
   Includes full dataset at 1.2TB and sample datasets at 23GB & 27GB
