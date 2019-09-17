@@ -1,4 +1,14 @@
-# Open_Source_Vul_Metrics
+# Open Source Vulnerability Metrics
+### Description:
+
+
+### Team: Abracadata  
+  Members: <br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * [**Seth Goodwin**](https://github.com/SethGoodwin)</br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * [**Michael Follari**](https://github.com/stonefollari)</br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * [**Jaron Dunham**](https://github.com/JaronDunham)</br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * [**Gabe Wilmoth**](https://github.com/GabeWilmoth)</br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; * [**Rohit Gade**](https://github.com/rohitreddygade)
 
 MSR 2020 Mining Challenge Dataset: https://docs.softwareheritage.org/devel/swh-dataset/graph/dataset.html
   Includes full dataset at 1.2TB and sample datasets at 23GB & 27GB
@@ -29,12 +39,3 @@ National Vulnerability Database: https://nvd.nist.gov/
     * The document will contain the following format:
       * Introduction to the project (2-3 paragraphs)
       * Outlined tasks for each team member
-
-Team Name: Abracadata  
-Team Members (Name - GitUsername): 
-</br>
--Seth Goodwin — SethGoodwin </br>
--Michael Follari — stonefollari </br>
--Jaron Dunham — JaronDunham </br>
--Gabe Wilmoth — GabeWilmoth </br>
--Rohit Gade — rohitreddygade
