@@ -1,8 +1,8 @@
 # Open Source Vulnerability Metrics
 
-### Description: 
+### Description:
 
-Mining the [_Software Heritage Graph Dataset_](https://docs.softwareheritage.org/devel/swh-dataset/graph/dataset.html); a very large dataset containing the development history of publicly available software. The dataset links together source code files organized in directories, commits tracking evolution over time, up to full snapshots of version control systems (VCS) repositories. 
+Mining the [_Software Heritage Graph Dataset_](https://docs.softwareheritage.org/devel/swh-dataset/graph/dataset.html); a very large dataset containing the development history of publicly available software. The dataset links together source code files organized in directories, commits tracking evolution over time, up to full snapshots of version control systems (VCS) repositories.
 * Includes a full dataset at 1.2TB and two "teaser" datasets: **popular-4k** at 27GB and **popular-3k-python** at 5.3 GB.
 	* The popular-4k teaser contains a subset of 4000 popular repositories from GitHub, Gitlab, PyPI and Debian.
 	* The popular-3k-python teaser contains a subset of 3052 popular repositories tagged as being written in the Python language, from GitHub, Gitlab, PyPI and Debian.
@@ -16,15 +16,18 @@ Our major goal is trying to cross-reference known software vulnerabilities found
 ### Team Abracadata  
 Instructor: [Dr. Somya Mohanty](https://github.com/somyamohanty) <br/>
 Mentor: [Dr. Steven Tate](https://www.uncg.edu/cmp/faculty/srtate/) <br/>
-Members:
+#### Members and Tasks:
 * [Seth Goodwin](https://github.com/SethGoodwin)
-	* looking through and cleaning `revision.csv`
+	* cleaning and understanding `revision.csv`, from popular-3k-python dataset
+		* determine if any irregularities/anomalies in the data
+		* looking into commit messages, trying to find commits that fix CVE's
+		* link commit ids (ones that fix CVE's) with NVD
 * [Michael Follari](https://github.com/stonefollari)
-	* looking through and cleaning `release.csv`
+	* looking through and cleaning `release.csv`, from popular-3k-python dataset
 * [Jaron Dunham](https://github.com/JaronDunham)
 	* parsing NVD data into useful and relevant data
 * [Gabe Wilmoth](https://github.com/GabeWilmoth)
-	* trying to connect NVD with SWHGD 
+	* trying to connect NVD with SWHGD
 * [Rohit Gade](https://github.com/rohitreddygade)
 	* extracting GitHub hash id from links found on the NVD
 
