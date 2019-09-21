@@ -6,8 +6,8 @@ import json as json
 #  Specified.
 
 # Source File. 
-file  = '../data/nvdcve-1.1-modified.json'
-year = 2019
+file  = '../data/nvd/nvdcve-1.1-2005.json'
+year = 2005
 # Destination path Type String only
 path = ''
 
@@ -43,4 +43,3 @@ with f :
                     hashid = (url[-1])
                 s =[str(n),str(year),hashid,describtion,link,date]
                 writer.writerow(s) 
-    c.close()
