@@ -7,18 +7,28 @@ Mining the [_Software Heritage Graph Dataset_](https://docs.softwareheritage.org
 	* The popular-4k teaser contains a subset of 4000 popular repositories from GitHub, Gitlab, PyPI and Debian.
 	* The popular-3k-python teaser contains a subset of 3052 popular repositories tagged as being written in the Python language, from GitHub, Gitlab, PyPI and Debian.
 
-Our major goals consist of: cross-referencing known software vulnerabilities found on the [National Vulneraibiltiy Database](https://nvd.nist.gov/) with commit ids found in the _Software Heritage Graph Dataset_ and determining if the latency between when a software bug is discovered and when it is patched gives us any insight on the severity of the bug or responsiveness of the developers.
-
+Our major goal is trying to cross-reference known software vulnerabilities found on the [National Vulneraibiltiy Database](https://nvd.nist.gov/) with commits found in the _Software Heritage Graph Dataset_. In doing so, hopefully we can answer some of the following questions: <br/>
+* How long is there between when a software bug is discovered and when it is patched?
+* How long is there between a fix and a new software release?
+* Is there a relationship between project activity and vulnerability severity?
 ***
 
 ### Team Abracadata  
 Instructor: [Dr. Somya Mohanty](https://github.com/somyamohanty) <br/>
-Mentor: [Dr. Steven Tate]() <br/>
-Members:
-* [Seth Goodwin](https://github.com/SethGoodwin) - 
-* [Michael Follari](https://github.com/stonefollari) - 
-* [Jaron Dunham](https://github.com/JaronDunham) - 
-* [Gabe Wilmoth](https://github.com/GabeWilmoth) - 
-* [Rohit Gade](https://github.com/rohitreddygade) - 
+Mentor: [Dr. Steven Tate](https://www.uncg.edu/cmp/faculty/srtate/) <br/>
+##### Members and Tasks:
+* [Seth Goodwin](https://github.com/SethGoodwin)
+	* cleaning and understanding `revision.csv`, from popular-3k-python dataset
+		* determine if any irregularities/anomolies in the data
+		* looking into commit messages, trying to find commits that fix CVE's
+		* link commit ids (ones that fix CVE's) with NVD
+* [Michael Follari](https://github.com/stonefollari)
+	* looking through and cleaning `release.csv`, from popular-3k-python dataset
+* [Jaron Dunham](https://github.com/JaronDunham)
+	* parsing NVD data into useful and relevant data
+* [Gabe Wilmoth](https://github.com/GabeWilmoth)
+	* trying to connect NVD with SWHGD 
+* [Rohit Gade](https://github.com/rohitreddygade)
+	* extracting GitHub hash id from links found on the NVD
 
 ***
