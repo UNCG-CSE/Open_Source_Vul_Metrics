@@ -6,8 +6,8 @@ import json as json
 #  Specified.
 
 # Source File. 
-file  = '../data/nvd/nvdcve-1.1-2005.json'
-year = 2005
+file  = '../data/nvd/nvdcve-1.1-2015.json'
+year = 2015
 # Destination path Type String only
 path = ''
 
