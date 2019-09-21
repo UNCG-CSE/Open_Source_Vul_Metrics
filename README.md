@@ -16,7 +16,7 @@ Our major goal is trying to cross-reference known software vulnerabilities found
 ### Team Abracadata  
 Instructor: [Dr. Somya Mohanty](https://github.com/somyamohanty) <br/>
 Mentor: [Dr. Steven Tate](https://www.uncg.edu/cmp/faculty/srtate/) <br/>
-##### Members and Tasks:
+#### Members and Tasks:
 * [Seth Goodwin](https://github.com/SethGoodwin)
 	* cleaning and understanding `revision.csv`, from popular-3k-python dataset
 		* determine if any irregularities/anomolies in the data
