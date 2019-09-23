@@ -35,4 +35,10 @@ CVE. I searched for any commit message containing any variation of "F/fix/ed/es 
 be to find a better criteria to filter the commit messages.
 
 Jaron Dunham 
-My task is to take the National Vulnerability Database files and parse them into something easier to read, these NVD were given in JSON form instead of the normal CVS, so figuring out how to access each individual point took a little while. Because of the bullet point like format JSON files use (and there being the possiblity of more than one of the same bullet point), extracting the information ean i have to go to each section, check for how many variables it contains and use that number to select the variable. I will continue to look for a better way to extract the information. Another issue is what format exactly do i want this information in, once again the bullet point-like format, trying to read the information in a chart seems like it would be difficult. The most feasible thing i can think of doing at the moment is splitting them into smaller charts, some type of join can be used if items needs to be references. 
+My task is to take the National Vulnerability Database files and parse them into something easier to read, these NVD were given in JSON 
+form instead of the normal CVS, so figuring out how to access each individual point took a little while. Because of the bullet point 
+like format JSON files use (and there being the possiblity of more than one of the same bullet point), extracting the information ean i 
+have to go to each section, check for how many variables it contains and use that number to select the variable. I will continue to look 
+for a better way to extract the information. Another issue is what format exactly do i want this information in, once again the bullet 
+point-like format, trying to read the information in a chart seems like it would be difficult. The most feasible thing i can think of 
+doing at the moment is splitting them into smaller charts, some type of join can be used if items needs to be references. 
