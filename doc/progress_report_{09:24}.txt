@@ -1,0 +1,6 @@
+Introduction to the project (2-3 paragraphs) (10 pts)
+Outlined tasks for each team member (10 pts)
+
+For our project, we are working with data from Software Heritage and the National Vulnerability Database (NVD). From Software Heritage, we are looking at the Software Heritage Graph Dataset. It is a public collection of open source software that includes source code files and a graph that retraces the history of software development. "The dataset captures the state of the Software Heritage archive on September 25th 2018, spanning a full mirror of Github and GitLab.com, the Debian distribution, Gitorious, Google Code, and the PyPI repository. Quantitatively it corresponds to 5 billion unique file contents and 1.1 billion unique commits, harvested from more than 85 million software origins" (Pietri et al. The Software Heritage Graph Dataset: Public software development under one roof).
+
+From the NVD, we are looking at software vulnerability information for all published CVE vulnerabilities since 2002. For each CVE entry, the NVD provides a description of the vulnerability, affected software, impact ratings, and references to advisories, solutions, and tools.
