@@ -12,7 +12,8 @@ year = 2015
 path = ''
 
 
-with open(file) as f :
+
+with open(file, encoding='utf-8') as f :
     data = json.load(f)
 data = data['CVE_Items']
 # Desitination file creation.
