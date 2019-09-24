@@ -52,3 +52,22 @@ is not a ton. However, we have to take into account that we are still working wi
 between the two datasets can grow to a workable sample size. Another task I will be taking on is comparing the versions of the
 vulnerabilities from NVD to the GitHub versions from SHGD. All in all, trying to make more connections between the two datasets and find
 a connection that yields the most usable data or combination of connections.
+
+Rohit R Gade
+I have taken the task of converting this National Venerability Data set JSON files into a useful format.To do
+that I have written a parser that reads specified NVD JSON file and selects parameters (Exp: cveid,
+year,commit hash.etc). Since our data sets were huge like a 1 TB, we thought to first take small portion of
+the data set and after final analization of it thought to scale it so for this reason parser at this stage 
+only extracts the CVE's which has github commit urls. Later if can be modified to commit from other sources 
+like git lab and Debian etc.
+
+Next step is to down size the huge SHDS(Software Heritage Data set.), The idea is to use CVE's versions (a 
+CVE has 2 versions one when the venerability starting version and venerability ending version) use SHDS data 
+set to find the dates when the realized and store the commits in between, then search for the commit between 
+the versions to find out which commit actuly fixed the version. Then calculate the date difference from that 
+fixed commit to the nearest version realize. This will give a time period for each CVE which is fixed but 
+has't be updated which exposes the typical users to a potential risk. This extracted date differences can be 
+later analyzed to develop models determine how long might be exposed to a fixed venerability by giving 
+certain parameter.  
+
+
