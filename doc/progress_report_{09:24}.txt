@@ -1,6 +1,3 @@
-Introduction to the project (2-3 paragraphs) (10 pts)
-Outlined tasks for each team member (10 pts)
-
 For our project, we are working with data from Software Heritage and the National Vulnerability Database (NVD). From Software 
 Heritage, we are looking at the Software Heritage Graph Dataset. It is a public collection of open source software that 
 includes source code files and a graph that retraces the history of software development. "The dataset captures the state of 
@@ -35,23 +32,25 @@ CVE. I searched for any commit message containing any variation of "F/fix/ed/es 
 be to find a better criteria to filter the commit messages.
 
 Jaron Dunham 
-My task is to take the National Vulnerability Database files and parse them into something easier to read, these NVD were given in JSON 
-form instead of the normal CVS, so figuring out how to access each individual point took a little while. Because of the bullet point 
-like format JSON files use (and there being the possiblity of more than one of the same bullet point), extracting the information ean i 
-have to go to each section, check for how many variables it contains and use that number to select the variable. I will continue to look 
-for a better way to extract the information. Another issue is what format exactly do i want this information in, once again the bullet 
-point-like format, trying to read the information in a chart seems like it would be difficult. The most feasible thing i can think of 
-doing at the moment is splitting them into smaller charts, some type of join can be used if items needs to be references. 
+My task is to take the National Vulnerability Database files and parse them into something easier to read, these NVD were 
+given in JSON form instead of the normal CVS, so figuring out how to access each individual point took a little while. Because 
+of the bullet point like format JSON files use (and there being the possiblity of more than one of the same bullet point), 
+when extracting the information I have to go to each section, check for how many variables it contains and use that number to 
+select the variable. I will continue to look for a better way to extract the information. Another issue is what format exactly 
+do I want this information in, once again the bullet point-like format, trying to read the information in a chart seems like 
+it would be difficult. The most feasible thing I can think of doing at the moment is splitting them into smaller charts, some 
+type of join can be used if items needs to be references. 
 
 Gabriel Wilmoth
-I mainly worked with the NVD National Vulnerability Dataset however, I also worked on the SHGD Software Heritage Graph Dataset. With my
-main task trying to find out how to connect the two datasets in a meaningful way. I've worked on the approach of parsing hashes from NVD
-and throwing the parsed information into a pandas data frame. Then I was able to join my data frame of NVD hashes and related
-information with a data frame of SHGD hashes and related information. The outcome of this merge has around 119 hashes in common, which
-is not a ton. However, we have to take into account that we are still working with a sample dataset and the number of connections
-between the two datasets can grow to a workable sample size. Another task I will be taking on is comparing the versions of the
-vulnerabilities from NVD to the GitHub versions from SHGD. All in all, trying to make more connections between the two datasets and find
-a connection that yields the most usable data or combination of connections.
+I mainly worked with the NVD National Vulnerability Dataset however, I also worked on the SHGD Software Heritage Graph 
+Dataset. With my main task trying to find out how to connect the two datasets in a meaningful way. I've worked on the approach 
+of parsing hashes from NVD and throwing the parsed information into a pandas data frame. Then I was able to join my data frame 
+of NVD hashes and related information with a data frame of SHGD hashes and related information. The outcome of this merge has 
+around 119 hashes in common, which is not a ton. However, we have to take into account that we are still working with a sample 
+dataset and the number of connections between the two datasets can grow to a workable sample size. Another task I will be 
+taking on is comparing the versions of the vulnerabilities from NVD to the GitHub versions from SHGD. All in all, trying to 
+make more connections between the two datasets and find a connection that yields the most usable data or combination of 
+connections.
 
 Rohit R Gade
 I have taken the task of converting this National Venerability Data set JSON files into a useful format.To do
@@ -76,10 +75,11 @@ After further exploration, it seemed unnneccesary at this point in the project, 
 parts of the SWHGD. In the future, if it is more convinient I am at a point I can easily import the data into the SQL database.
 
 I turned my attention to the "release.csv" from the SWHGD. This data set contains information about the official releases of
-the contained open source software projects. I am hoping that the release.csv will be a good dataset to explore as we are hoping 
-to find commits that fix vulnerabilities. I am only working with the popular-3k-python dataset ("a subset of 3052 popular 
-repositories tagged as being written in the Python language, from GitHub, Gitlab, PyPI and Debian" (SWHGD)), as I am mostly 
-exploring posibilities with the data.
+the contained open source software projects. I am hoping that the release.csv will be a good dataset to explore as we are 
+hoping to find commits that fix vulnerabilities. I am only working with the popular-3k-python dataset ("a subset of 3052 
+popular repositories tagged as being written in the Python language, from GitHub, Gitlab, PyPI and Debian" (SWHGD)), as I am 
+mostly exploring posibilities with the data.
+
 I am focusing on correlating the frequencies of commits to the discovery of vulnerabilities. This means I am only concerned 
 with commit dates. I have imported, cleaned, and created a frequency dateframe from the dataset. I have made simple graphs 
 to get a sense of frequency vs. time. It appears that there are semi-regular spikes in frequency; this could be the result 
