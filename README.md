@@ -24,6 +24,7 @@ Mentor: [Dr. Steven Tate](https://www.uncg.edu/cmp/faculty/srtate/) <br/>
 		* link commit ids (ones that fix CVE's) with NVD
 * [Michael Follari](https://github.com/stonefollari)
 	* looking through and cleaning `release.csv`, from popular-3k-python dataset
+		* explore time dependednce between `release.csv` and NVD
 * [Jaron Dunham](https://github.com/JaronDunham)
 	* parsing NVD data into useful and relevant data
 * [Gabe Wilmoth](https://github.com/GabeWilmoth)
