@@ -3,3 +3,4 @@
 
 #ignore checkpoints
 .ipynb_checkpoints
+data/nvd/.DS_Store
