@@ -27,6 +27,14 @@ We intend to explore the interesting statistics between the vulnerabilities and 
 ## Seth Goodwin
 
 ## Jaron Dunham 
+### Task
+- Complete Algorithm to convert NVD JSON files to CSV
+- Determine link between severity during a period of time and frequecy of release
+#### NVD JSON
+- I originally had an algorith that would search through each part of the JSON file and parse it into CSV, as i said in the first progress report, I was sure that there was a much easier way to do it, so I sent time working on that until I found json_normalize. This pretty much did all that i asked for, the only thing I needed to deal with was the arrays within the file, which remained nested.
+#### Severity vs. Frequency of Release 
+- I was tasked to see if there was any link between the severity (or base score) from the NVD database, and if the high it was caused for more frequent commits (~5 hours) 
+With the graph that I currently have, I do not see anything that would make me think that these two parameters are linked in anyway. The graph that display the entire timeframe also shows that commits ingeneral a more common as time goes on, so that can effect our results. And the graph with a small timeframe show no corelation. Different distributions needs to used to see if there are any corelations that I am missing. 
 
 ## Gabriel Wilmoth
 
