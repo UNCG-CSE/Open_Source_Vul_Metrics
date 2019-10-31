@@ -100,7 +100,7 @@ Analaysis between Commits ( Vulnerability fixes ) dates and Release dates [noteb
 ### Work Done
 Analaize Co-relation between Revision and Release<br>
 - I tried to plot the graphs correspoing to number of release and commits per day along along year.basicly trying to find any corelaiotn between both of then in general. If exist how how it can be related to Vulnerabiliy fixs commits and Relases.<br>
--Analaysis between Commits ( Vulnerability fixes ) dates and Release dates<br>
+Analaysis between Commits ( Vulnerability fixes ) dates and Release dates<br>
 - Main objective was to understand how long do it take for a fix to be released based on the how active does the repo or the opensoruce project is? So first list of vul. were collected from nvd dataset and its correspoing commits and releases data was extracted from SHDS and github.then
 tried to fit a distribution model (Norm. Dist.) to the data.But observed thay 1/3rd of the dates was  between the commit and releases were not ralistic. and have to fix why it happend.
 
