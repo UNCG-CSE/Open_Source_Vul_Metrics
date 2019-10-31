@@ -16,9 +16,13 @@ advisories, solutions, and tools.
 
 ## Main Goals
 
-We aim to successfully cross-reference GitHub commits with software vulnerabilities. In doing so, hopefully we can compute the 
-average time it takes from when a vulnerability is discovered to when it is patched and a new software version is released to the public. 
-Maybe we can relate repository activity with how quickly a software bug is fixed or with the severity of the vulnerability.
+We aim to explore the effects of software vulnerabilities on open source software, and vice versa.
+With these datasets we hope to cross-reference GitHub (or other VCS) commits with software vulnerabilities themselves, as a direct connection between the two datasets is not clearly defined.
+We intend to explore the interesting statistics between the vulnerabilities and software, including:
+- How long does it take for a software vulnerability to be patached / addressed with a new software release after it's discovery?
+- How does the rate of normal activity of an open source project repository relate to the time before addressing software vulnereabilities?
+- Do overractive development periods in open source software cause the creation of more software vulnerabilities?
+
 
 ## Seth Goodwin
 
@@ -29,4 +33,28 @@ Maybe we can relate repository activity with how quickly a software bug is fixed
 ## Rohit Gade
 
 ## Michael Follari
+### Task
+- Explore the correlation between vulnerabiliies and releases.
+- Formulate appropraite hypothesis to determine if vulnerabilities has some effect on relases.
+
+### Work Done 
+
+##### Releases CSV Exploration
+- Exploration, Graphing, Functions to easily explore (4 hour).
+I kept my focus on the releases.csv file. The aim was to better understand the releases and determine if time based correlation between relases and NVD could be made. With this, test vulnerabiulity and releases hypothesis.
+The releases vary greatly with time; since open source software / version control software has grown greatly in popularity with time. I found that the largest and most consistent spread of time that I could analyze was Jan. 1st 2016 to Jan. 1st 2018.
+
+##### Reading of NVD, Vulnerabilities
+- Functions to read, parse, clean, and others to parse NVD data and vulnerabilities (3 hours).
+I found all I needed from NVD (Vulnerability Dataset) for my analysis was the publish date and the vulnerability score. I created functions to loop through the csv files and read in just the. Resampled vulnerabilities by week, by `count`.
+
+##### Exploring Vulnerability and Release
+- Function creation, parameter variation for best analysis (days) (6 hours)
+Created functions to find different statistics of the releases or vulnerabilities. Created functions to look days ahead in the dataset and calculate count of different periods. For each of the weeks with most/least vulnerabilities, explored different time steps in analysis (how many days ahead to look for increased releases), found the number of releases in the following week.
+
+##### Hypothesis Testing
+- Plotted histograms, formatted graphs, calculated statistics and correlations of the sets, two sample t-test for hypothesis (7 hours).
+I found that here is no correlation and the amount of vulnerability discoveries does not affect the number of releases.
+
+
 
