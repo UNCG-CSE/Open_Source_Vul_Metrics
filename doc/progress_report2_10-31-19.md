@@ -25,25 +25,60 @@ We intend to explore the interesting statistics between the vulnerabilities and 
 
 
 ## Seth Goodwin
+### Tasks
+* More data wrangling and cleaning 
+	* Extracting relevent data nested within datasets
+* Determine if correlation between vulnerability publish date and commit patch date
+* Hypothesis testing to determine delay between vulnerability patch and vulnerability info being 
+published
 
+### Work Done - [notebook]()
+
+#### Data Cleaning (~7 hours)
+I first had to read in and extract the necessary columns from the nested NVD .JSON data. One 
+column containted all the reference urls for each of the vulnerabilities. I had to extract the 
+GitHub commit urls, ones that patched a software vulnerability, and then had to get the commit 
+date from each page. I've wrote various functions to extract the needed data.
+
+#### Correlation Exploration and Distribution Modeling (~5 hours)
+I originally plotted a superimposed histogram comparing hourly commits with monthly 
+vulnerability discoveries... this didn't yield much. I then focused on software vulnerabilities 
+that have been patched specificallly by a GitHub commit. I then plotted vulnerability publish 
+date with commit patch date and this yielded interesting results. I also plotted vulnerabilites 
+per month and delay between patch and vulnerability publish date and fit a curve to both. Lastly 
+I looked at the correlation between commits and vulnerabilty publish date.
+
+#### Hypothesis Testing (~3 hours)
+I plotted histograms and performed a one sample z-test to test my null hypothesis. The resulting p-value was significantly less than the significance level. Therefore I can reject my null hypothesis and lean towards the alternative hypothesis. In other words, the average time it takes the NVD to publish new vulnerability info after a GitHub patch is greater than 4 months.
 ## Jaron Dunham 
-### Task
+### Tasks
 - Complete Algorithm to convert NVD JSON files to CSV
 - Determine link between severity during a period of time and frequecy of release
+
 #### NVD JSON
-- I originally had an algorith that would search through each part of the JSON file and parse it into CSV, as i said in the first progress report, I was sure that there was a much easier way to do it, so I sent time working on that until I found json_normalize. This pretty much did all that i asked for, the only thing I needed to deal with was the arrays within the file, which remained nested.
+- I originally had an algorith that would search through each part of the JSON file and parse it 
+into CSV, as i said in the first progress report, I was sure that there was a much easier way to 
+do it, so I sent time working on that until I found json_normalize. This pretty much did all that 
+i asked for, the only thing I needed to deal with was the arrays within the file, which remained 
+nested.
+
 #### Severity vs. Frequency of Release 
-- I was tasked to see if there was any link between the severity (or base score) from the NVD database, and if the high it was caused for more frequent commits (~5 hours) 
-With the graph that I currently have, I do not see anything that would make me think that these two parameters are linked in anyway. The graph that display the entire timeframe also shows that commits ingeneral a more common as time goes on, so that can effect our results. And the graph with a small timeframe show no corelation. Different distributions needs to used to see if there are any corelations that I am missing. 
+- I was tasked to see if there was any link between the severity (or base score) from the NVD
+database, and if the high it was caused for more frequent commits (~5 hours) 
+With the graph that I currently have, I do not see anything that would make me think that these 
+two parameters are linked in anyway. The graph that display the entire timeframe also shows that 
+commits ingeneral a more common as time goes on, so that can effect our results. And the graph 
+with a small timeframe show no corelation. Different distributions needs to used to see if there 
+are any corelations that I am missing.
 
 ## Gabriel Wilmoth
 
 ## Rohit Gade
 
 ## Michael Follari
-### Task
+### Tasks
 - Explore the correlation between vulnerabiliies and releases.
-- Formulate appropraite hypothesis to determine if vulnerabilities has some effect on relases.
+- Formulate appropraite hypothesis to determine if vulnerabilities has some effect on releases.
 
 ### Work Done 
 
