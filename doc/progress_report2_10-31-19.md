@@ -94,7 +94,15 @@ In trying to connect even more of NVD and SHD I had the idea of comparing NVD de
 In an attempt to gain further insight into our data and the connection between the two datasets, I was tasked to look into the above relation. The goal was to first gather useful statistics for New Vulnerabilites and fit it to a normal distribution, in doing so I took a look at the about of New Vulnerabilities per week. After that I compared the graphs of Vulnerabilities and Releases and observed some interesting results. I then attempted to normalize Releases for a given time period and was successful. However, I wasn't able to normalize Vulnerabilities for the same time period thus I wasn't able to follow through with Hypothesis Testing. Although, I was able to draw some interesting conclusions and create Null and Alternative Hypotheses.
 
 ## Rohit Gade
-
+### Tasks
+	 Analaize Co-relation between Revision and Release  (Extraction of Data -1hr,  Research,Ploting and Exploration: 2hr):3hr
+	 Analaysis between Commits ( Vulnerability fixes ) dates and Release dates (Extration of Data: 4-5 Hr, Research Applying Distribution and ploting:3hr ) :8Hr
+### Work Done
+	Analaize Co-relation between Revision and Release
+		- I tried to plot the graphs correspoing to number of release and commits per day along along year.basicly trying to find any corelaiotn between both of then in general. If exist how how it can be related to Vulnerabiliy fixs commits and Relases.
+	-Analaysis between Commits ( Vulnerability fixes ) dates and Release dates
+		- Main objective was to understand how long do it take for a fix to be released based on the how active does the repo or the opensoruce project is? So first list of vul. were collected from nvd dataset and its correspoing commits and releases data was extracted from SHDS and github.then
+		tried to fit a distribution model (Norm. Dist.) to the data.But observed thay 1/3rd of the dates was  between the commit and releases were not ralistic. and have to fix why it happend.
 ## Michael Follari
 ### Tasks
 - Explore the correlation between vulnerabiliies and releases.
