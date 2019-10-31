@@ -32,7 +32,7 @@ We intend to explore the interesting statistics between the vulnerabilities and 
 * Hypothesis testing to determine delay between vulnerability patch and vulnerability info being 
 published
 
-### Work Done - [notebook]()
+### Work Done - [notebook](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/master/src/statistical_analysis.ipynb)
 
 #### Data Cleaning (~7 hours)
 I first had to read in and extract the necessary columns from the nested NVD .JSON data. One 
