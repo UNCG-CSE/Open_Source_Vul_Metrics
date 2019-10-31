@@ -54,7 +54,7 @@ Created functions to find different statistics of the releases or vulnerabilitie
 
 ##### Hypothesis Testing
 - Plotted histograms, formatted graphs, calculated statistics and correlations of the sets, two sample t-test for hypothesis (7 hours).
-I found that here is no correlation and the amount of vulnerability discoveries does not affect the number of releases.
+I found that there is no correlation and the amount of vulnerability discoveries does not affect the number of releases in the same/following weeks.
 
 
 
