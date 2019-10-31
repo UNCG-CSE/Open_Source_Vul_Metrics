@@ -72,6 +72,26 @@ with a small timeframe show no corelation. Different distributions needs to used
 are any corelations that I am missing.
 
 ## Gabriel Wilmoth
+### Tasks
+* Download Data and Setup Babbage Server
+* Data Cleaning, Exploration, and Connecting 
+	* Pulling message data from NVD and try to connect to SHD
+* Exploration of Correlation between spike in releases and new vulnerabilities
+	* Normalize New Vulnerabilities to fit a normal distribution
+	
+### Work Done 
+
+##### Downloading Full Dataset and Server Setup
+(5 hours)
+I downloaded the Full Software Heritage Dataset (SHD) which took about a day and not factored into time. Then the process of working on the Babbage UNCG server to process all this data ensued. I encountered several issues from permissions to timming out when trying to process all of the data. Eventually we settled on using DASK for parallel processing to hopefully speed up the processing of data before we were timed out.
+
+#### [Data Cleaning, Exploration, and Connecting](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/tree/beta/data/NVD-to-CSV-Descriptions)
+(3 hours)
+In trying to connect even more of NVD and SHD I had the idea of comparing NVD descriptions to SHD commit messages. In doing so work had to be done towards parsing out the descriptions from NVD JSONs for 2005-2018. After parsing out the description messages it was then a process of comparing them already parsed SHD commit messages.
+
+#### [Exploration of Correlation between Spike in Releases and New Vulnerabilities](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/beta/src/(GW%20Project%20pt.2)%20Correlation%20between%20spike%20in%20releases%20and%20new%20vulnerabilities.ipynb)
+(10 hours)
+In an attempt to gain further insight into our data and the connection between the two datasets, I was tasked to look into the above relation. The goal was to first gather useful statistics for New Vulnerabilites and fit it to a normal distribution, in doing so I took a look at the about of New Vulnerabilities per week. After that I compared the graphs of Vulnerabilities and Releases and observed some interesting results. I then attempted to normalize Releases for a given time period and was successful. However, I wasn't able to normalize Vulnerabilities for the same time period thus I wasn't able to follow through with Hypothesis Testing. Although, I was able to draw some interesting conclusions and create Null and Alternative Hypotheses.
 
 ## Rohit Gade
 
