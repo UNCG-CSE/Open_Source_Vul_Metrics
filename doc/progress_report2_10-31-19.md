@@ -95,12 +95,12 @@ In an attempt to gain further insight into our data and the connection between t
 
 ## Rohit Gade
 ### Tasks
-Analaize Co-relation between Revision and Release [notebook](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/beta/src/3k-python/Rev%20Rel%20Com.ipynb)  (Extraction of Data -1hr,  Research,Ploting and Exploration: 2hr):3hr
-Analaysis between Commits ( Vulnerability fixes ) dates and Release dates [notebook](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/beta/src/NVD/Anaz_Commit_Releases.ipynb) (Extration of Data: 4-5 Hr, Research Applying Distribution and ploting:3hr ) :8Hr
+Analaize Co-relation between Revision and Release [notebook](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/beta/src/3k-python/Rev%20Rel%20Com.ipynb)  (Extraction of Data -1hr,  Research,Ploting and Exploration: 2hr):3hr<br>
+Analaysis between Commits ( Vulnerability fixes ) dates and Release dates [notebook](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/beta/src/NVD/Anaz_Commit_Releases.ipynb) (Extration of Data: 4-5 Hr, Research Applying Distribution and ploting:3hr ) :8Hr<br>
 ### Work Done
-Analaize Co-relation between Revision and Release
-- I tried to plot the graphs correspoing to number of release and commits per day along along year.basicly trying to find any corelaiotn between both of then in general. If exist how how it can be related to Vulnerabiliy fixs commits and Relases.
--Analaysis between Commits ( Vulnerability fixes ) dates and Release dates
+Analaize Co-relation between Revision and Release<br>
+- I tried to plot the graphs correspoing to number of release and commits per day along along year.basicly trying to find any corelaiotn between both of then in general. If exist how how it can be related to Vulnerabiliy fixs commits and Relases.<br>
+-Analaysis between Commits ( Vulnerability fixes ) dates and Release dates<br>
 - Main objective was to understand how long do it take for a fix to be released based on the how active does the repo or the opensoruce project is? So first list of vul. were collected from nvd dataset and its correspoing commits and releases data was extracted from SHDS and github.then
 tried to fit a distribution model (Norm. Dist.) to the data.But observed thay 1/3rd of the dates was  between the commit and releases were not ralistic. and have to fix why it happend.
 
