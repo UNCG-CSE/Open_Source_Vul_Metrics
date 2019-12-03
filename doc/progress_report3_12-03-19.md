@@ -55,7 +55,7 @@ my task. After determining which information was relevant, I read in all the NVD
 ### Tasks
 * Predict amount of Releases from amount of Revisions and Revisions date
 ### Work Done
-#### [Model Creation and Statistics](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/beta/src/Models/Linear%20Regression%20Releases%20from%20Revisions.ipynb)
+#### [Model Creation and Statistics](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/master/src/Models/Linear%20Regression%20Releases%20from%20Revisions.ipynb)
 (12 hours)
 * Question Asked:
   * Looking at the amount of Revisions per week, can we accurately predict the amount of Releases in the following weeks to come?
