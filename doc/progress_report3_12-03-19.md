@@ -32,7 +32,14 @@ We intend to explore the interesting statistics between the vulnerabilities and 
 
 ## Jaron Dunham 
 ### Tasks
-
+* Cluster NVD impact vectors to see if scores are accurately represented. (Task adjusted to use SVM Regression instead)
+### Work Done
+#### [Predicting Base Score using SVM Regression](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/beta/src/NVD/SVM_BaseScorePrediction.ipynb) 
+(8 hours)
+* Question Asked: 
+  * Using the variables within cvssV2, would the base score be accurately predicted
+  
+ Attempting to figure out which machine learning algorithm to use was the most difficult task, I knew that since Base Score was an integer value that a regression algorithm would be needed, I ended up using Support Vector Machine (SVM), which helped with the multiple columns id be using for my input. Currently the predicted output I get are at the most 1.5 away from the actual value (inputs from the dataframe were used as an example to check the accuracy of the machine learning algorithm). Currently the algorithm is only reading from a single NVD file (which contains about 8000 rows of data), so using the rest of the files may provide more accurate results 
 
 ## Gabriel Wilmoth
 ### Tasks
