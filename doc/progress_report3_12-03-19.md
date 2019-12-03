@@ -44,7 +44,7 @@ my task. After determining which information was relevant, I read in all the NVD
 ### Tasks
 * Cluster NVD impact vectors to see if scores are accurately represented. (Task adjusted to use SVM Regression instead)
 ### Work Done
-#### [Predicting Base Score using SVM Regression](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/beta/src/NVD/SVM_BaseScorePrediction.ipynb)
+#### [Predicting Base Score using SVM Regression](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/master/src/NVD/SVM_BaseScorePrediction.ipynb)
 (8 hours)
 * Question Asked:
   * Using the variables within cvssV2, would the base score be accurately predicted
