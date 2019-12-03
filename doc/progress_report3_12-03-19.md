@@ -67,7 +67,7 @@ In attempting to predict and model the task describe above I ran through the fol
 ### Tasks
 * To Predict the number of days to fix a vulnerability, based on number of users or contributors that exits in the the project.
 ### Work Done
-#### [ Notebook Link ](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/beta/src/Models/Users_to_fixs_model.ipynb)
+#### [ Notebook Link ](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/master/src/Models/Users_to_fixs_model.ipynb)
 (10 Hours)
 * Question Asked:
   * Using the number of contributors in a project, can we predict the number of days it may take to fix a vulnerability in the project?
