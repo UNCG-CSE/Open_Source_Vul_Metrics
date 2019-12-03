@@ -55,10 +55,14 @@ In attempting to predict and model the task describe above I ran through the fol
 
 ## Rohit Gade
 ### Tasks
-
+* To Predict the number of days to fix a vulnerability, based on number of users or contributers that exits in the the project.
 ### Work Done
-
-
+#### [ Notebook Link ](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/beta/src/Models/Users_to_fixs_model.ipynb)
+(10 Hours)
+* Question:
+ * Using number of contributers in a project can we predict the number of days it may take to fix a vulnerability in the project?
+ 
+ The basic idea was to use a regression model to predict the no. of days to fix van (update_time). To first I took just the no. of contributors in a project and its corresponding update_time.So I splinted the dataset in train and test dataset and then to asses which model (Linear Regression or Random Forest Regression ) will perform better I preformed K-fold Crossvalidation with the training dataset with metric as R-square and but both of models performance was not satisfactory but between them Random Forest Regression was a bit better.So I tired to create a regression model based on Random forest Regression as my model but the  performance of the regression on the train and test dataset was very poor which means by model is underfitting the data. So to solve the problem I added some features to the model [ base score,attac_complexit,severity..etc ] to the dataset and again retrained the dataset using the random forest model and able to increase the R-Square value to 59.8. Which can be interpreted as the there is 60 present correlation between the  independent variables and the dependent variables in the model.	
 ## Michael Follari
 ### Tasks
 
