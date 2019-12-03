@@ -32,7 +32,7 @@ We intend to explore the interesting statistics between the vulnerabilities and 
 * Predict software vulnerability base scores using CVSS v3 metrics
 
 ### Work Done
-#### [Predicting Vulnerability Base Scores with Multiple Regression]()
+#### [Predicting Vulnerability Base Scores with Multiple Regression](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/master/src/3k-python/vuln_severity_ml.ipynb)
 (10 hours)
 * Question Asked:
   * Can we accurately predict software vulnerability base scores using CVSS v3 metrics?
@@ -44,7 +44,7 @@ my task. After determining which information was relevant, I read in all the NVD
 ### Tasks
 * Cluster NVD impact vectors to see if scores are accurately represented. (Task adjusted to use SVM Regression instead)
 ### Work Done
-#### [Predicting Base Score using SVM Regression](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/master/src/NVD/SVM_BaseScorePrediction.ipynb)
+#### [Predicting Base Score using SVM Regression](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/beta/src/NVD/SVM_BaseScorePrediction.ipynb)
 (8 hours)
 * Question Asked:
   * Using the variables within cvssV2, would the base score be accurately predicted
@@ -55,7 +55,7 @@ my task. After determining which information was relevant, I read in all the NVD
 ### Tasks
 * Predict amount of Releases from amount of Revisions and Revisions date
 ### Work Done
-#### [Model Creation and Statistics](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/master/src/Models/Linear%20Regression%20Releases%20from%20Revisions.ipynb)
+#### [Model Creation and Statistics](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/beta/src/Models/Linear%20Regression%20Releases%20from%20Revisions.ipynb)
 (12 hours)
 * Question Asked:
   * Looking at the amount of Revisions per week, can we accurately predict the amount of Releases in the following weeks to come?
