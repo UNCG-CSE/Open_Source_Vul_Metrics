@@ -40,6 +40,9 @@ We intend to explore the interesting statistics between the vulnerabilities and 
 ### Work Done
 #### [Model Creation and Statistics](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/beta/src/Models/Linear%20Regression%20Releases%20from%20Revisions.ipynb)
 (12 hours)
+* Question Asked:
+  * Looking at the amount of Revisions per week, can we accurately predict the amount of Releases in the following weeks to come?
+
 In attempting to predict and model the task describe above I ran through the following. First I graphically represented both Revisions and Releases and then compared those graphs. Doing so I determined that there was a statistical relationship between the two datasets. Further work then went into removing outliers and prepping the data to be fit to a model. After prepping the data I was left with 90 rows (which is not a lot). Then, I took the approach of fitting a LinearRegression model to the data having X features of Revisions Count and Revisions Date and Y features of Releases Count. In training and testing the model I finished with a 86 for Mean Squared Error, which is not incredably accurate and would need more data to lower the score.
 
 
