@@ -44,7 +44,7 @@ my task. After determining which information was relevant, I read in all the NVD
 ### Tasks
 * Cluster NVD impact vectors to see if scores are accurately represented. (Task adjusted to use SVM Regression instead)
 ### Work Done
-#### [Predicting Base Score using SVM Regression](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/beta/src/NVD/SVM_BaseScorePrediction.ipynb)
+#### [Predicting Base Score using SVM Regression](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/master/src/NVD/SVM_BaseScorePrediction.ipynb)
 (8 hours)
 * Question Asked:
   * Using the variables within cvssV2, would the base score be accurately predicted
@@ -55,7 +55,7 @@ my task. After determining which information was relevant, I read in all the NVD
 ### Tasks
 * Predict amount of Releases from amount of Revisions and Revisions date
 ### Work Done
-#### [Model Creation and Statistics](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/beta/src/Models/Linear%20Regression%20Releases%20from%20Revisions.ipynb)
+#### [Model Creation and Statistics](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/master/src/Models/Linear%20Regression%20Releases%20from%20Revisions.ipynb)
 (12 hours)
 * Question Asked:
   * Looking at the amount of Revisions per week, can we accurately predict the amount of Releases in the following weeks to come?
@@ -79,7 +79,7 @@ In attempting to predict and model the task describe above I ran through the fol
 * Find the most common words associated with release and revision commit messages.
 * Create classification model to predict if a given message is likely to belong to a release or revision commit.
 ### Work Done
-#### [Commit Message Language Processing / Modeling](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/beta/src/3k-python/commit_NLP.ipynb)
+#### [Commit Message Language Processing / Modeling](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/master/src/3k-python/commit_NLP.ipynb)
 (12 Hours)
 * Question:
   * Is there a difference between the content of commit messages between release and revision commits? How do they differ?
