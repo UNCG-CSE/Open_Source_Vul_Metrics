@@ -22,9 +22,17 @@ Mentor: [Dr. Steven Tate](https://www.uncg.edu/cmp/faculty/srtate/) <br/>
 		* determine if any irregularities/anomalies in the data
 		* looking into commit messages, trying to find commits that fix CVE's
 		* link commit ids (ones that fix CVE's) with NVD
+  * determine how long it takes the NVD to report on software vulnerabilities
+		* how responsive is the NVD?
+		* basic statistical analysis (mean, standard deviation, etc.) of data
+		* distribution modeling
+		* hypothesis testing
+	* building machine learning model to predict software vulnerability base scores
+		* using **CVSS v3** metrics, train multiple linear regression model (70/30 training/testing split)
+		* evaluate model accuracy using root mean squared error and r-squared value
 * [Michael Follari](https://github.com/stonefollari)
 	* looking through and cleaning `release.csv`, from popular-3k-python dataset
-		* explore time dependednce between `release.csv` and NVD
+		* explore time dependence between `release.csv` and NVD
 * [Jaron Dunham](https://github.com/JaronDunham)
 	* parsing NVD data into useful and relevant data
 * [Gabe Wilmoth](https://github.com/GabeWilmoth)
