@@ -40,7 +40,10 @@ Mentor: [Dr. Steven Tate](https://www.uncg.edu/cmp/faculty/srtate/) <br/>
 		* attempted to see if the rising or lowering of the base score affected the frequency of commits 
 	* Attempting to predict Base Score using variables from CVSS v2 metrics
 * [Gabe Wilmoth](https://github.com/GabeWilmoth)
-	* trying to connect NVD with SWHGD
+	* Trying to connect NVD with SWHGD
+	* Look into Relationship between Releases and New Vulnerabilities
+	* Predict count of Releases from count of Revisions and Date of Revisions
+		* Looking at the amount of Revisions per week, can we accurately predict the amount of Releases in the following week(s) to come?
 * [Rohit Gade](https://github.com/rohitreddygade)
 	* extracting GitHub hash id from links found on the NVD
 	* Create a dataset from NVD and SHDS to analize who long is there between when a software bug is discovered and when it is patched?
