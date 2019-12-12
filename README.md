@@ -34,7 +34,11 @@ Mentor: [Dr. Steven Tate](https://www.uncg.edu/cmp/faculty/srtate/) <br/>
 	* looking through and cleaning `release.csv`, from popular-3k-python dataset
 		* explore time dependence between `release.csv` and NVD
 * [Jaron Dunham](https://github.com/JaronDunham)
-	* parsing NVD data into useful and relevant data
+	* parsing NVD JSON files into CSV files
+		* extracting the nested information within NVD
+	* Comparing Frequency of Commits (SWHGD) to Base Score (NVD)
+		* attempted to see if the rising or lowering of the base score affected the frequency of commits 
+	* Attempting to predict Base Score using variables from cvssV2
 * [Gabe Wilmoth](https://github.com/GabeWilmoth)
 	* trying to connect NVD with SWHGD
 * [Rohit Gade](https://github.com/rohitreddygade)
