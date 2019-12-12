@@ -22,7 +22,7 @@ Mentor: [Dr. Steven Tate](https://www.uncg.edu/cmp/faculty/srtate/) <br/>
 		* determine if any irregularities/anomalies in the data
 		* looking into commit messages, trying to find commits that fix CVE's
 		* link commit ids (ones that fix CVE's) with NVD
-  * determine how long it takes the NVD to report on software vulnerabilities
+  	* determine how long it takes the NVD to report on software vulnerabilities
 		* how responsive is the NVD?
 		* basic statistical analysis (mean, standard deviation, etc.) of data
 		* distribution modeling
@@ -38,7 +38,7 @@ Mentor: [Dr. Steven Tate](https://www.uncg.edu/cmp/faculty/srtate/) <br/>
 		* extracting the nested information within NVD
 	* Comparing Frequency of Commits (SWHGD) to Base Score (NVD)
 		* attempted to see if the rising or lowering of the base score affected the frequency of commits 
-	* Attempting to predict Base Score using variables from cvssV2
+	* Attempting to predict Base Score using variables from CVSS v2 metrics
 * [Gabe Wilmoth](https://github.com/GabeWilmoth)
 	* trying to connect NVD with SWHGD
 * [Rohit Gade](https://github.com/rohitreddygade)
