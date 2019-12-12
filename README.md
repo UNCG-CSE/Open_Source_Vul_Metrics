@@ -43,5 +43,7 @@ Mentor: [Dr. Steven Tate](https://www.uncg.edu/cmp/faculty/srtate/) <br/>
 	* trying to connect NVD with SWHGD
 * [Rohit Gade](https://github.com/rohitreddygade)
 	* extracting GitHub hash id from links found on the NVD
+	* Create a dataset from NVD and SHDS to analize who long is there between when a software bug is discovered and when it is patched?
+	* Develop a model to predict the patch duration.
 
 ***
