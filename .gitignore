@@ -1,6 +1,6 @@
 # ignore data
 ./data
-
+**/.DS_Store
 #ignore checkpoints
 .ipynb_checkpoints
 data/nvd/.DS_Store
