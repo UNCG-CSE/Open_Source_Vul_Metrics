@@ -18,16 +18,16 @@ Instructor: [Dr. Somya Mohanty](https://github.com/somyamohanty) <br/>
 Mentor: [Dr. Steven Tate](https://www.uncg.edu/cmp/faculty/srtate/) <br/>
 #### Members and Tasks:
 * [Seth Goodwin](https://github.com/SethGoodwin)
-	* cleaning and understanding `revision.csv`, from popular-3k-python dataset
+	* cleaning and understanding `revision.csv`, from popular-3k-python dataset [Notebook](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/master/src/3k-python/revision.ipynb)
 		* determine if any irregularities/anomalies in the data
 		* looking into commit messages, trying to find commits that fix CVE's
 		* link commit ids (ones that fix CVE's) with NVD
-  	* determine how long it takes the NVD to report on software vulnerabilities
+  	* determine how long it takes the NVD to report on software vulnerabilities [Notebook](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/master/src/statistical_analysis.ipynb)
 		* how responsive is the NVD?
 		* basic statistical analysis (mean, standard deviation, etc.) of data
 		* distribution modeling
 		* hypothesis testing
-	* building machine learning model to predict software vulnerability base scores
+	* building machine learning model to predict software vulnerability base scores [Notebook](https://github.com/UNCG-CSE/Open_Source_Vul_Metrics/blob/master/src/3k-python/vuln_severity_ml.ipynb)
 		* using **CVSS v3** metrics, train multiple linear regression model (70/30 training/testing split)
 		* evaluate model accuracy using root mean squared error and r-squared value
 * [Michael Follari](https://github.com/stonefollari)
